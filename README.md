@@ -12,9 +12,8 @@ To use the Data Encryption Standard (DES) algorithm for a practical application,
 4. DES applies initial and final permutations along with 16 rounds of substitution and permutation transformations to produce ciphertext.
 
 ## Program:
-
-```
-   #include <stdio.h>
+~~~C
+#include <stdio.h>
 #include <string.h>
 // Function to perform a simple XOR-based encryption
 void encrypt(char *message, char *key, char *encryptedMessage, int
@@ -65,7 +64,7 @@ decrypt(encryptedMessage, key, decryptedMessage, messageLength);
 printf("Decrypted Message: %s\n", decryptedMessage);
 return 0;
 }
-```
+~~~
 
 
 
